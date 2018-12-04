@@ -1,0 +1,23 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Appout Secure Key
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-list>
+
+    <ion-item>
+      <ion-input type="password" [(ngModel)]="Key" placeholder="Write A Secret key"></ion-input>
+    </ion-item>
+    <ion-item>
+      Token
+      <ion-badge item-end>{{Token}}</ion-badge>
+    </ion-item>
+  </ion-list>
+  <div padding>
+    <button ion-button outline block (click)="generateToken()">Generate token</button>
+  </div>
+</ion-content>

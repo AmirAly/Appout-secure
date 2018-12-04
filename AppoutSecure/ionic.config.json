@@ -1,0 +1,7 @@
+{
+  "name": "AppoutSecure",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
